@@ -28,6 +28,6 @@ console.log("El precio base del artículo es: "+precio_base+"\n El precio con iv
 
 
     
-});
+
 
 
