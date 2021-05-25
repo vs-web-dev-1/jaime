@@ -20,6 +20,7 @@ const lista_precios={
     pvp_norm:precio_iva_norm,
     pvp_recargo:precio_iva_recargado
 }
+
 console.log("Para el articulo con precio base = "+precio_base+" sus posibles precios son: ");
 console.log(lista_precios)
 console.log("El precio base del artículo es: "+precio_base+"\n El precio con iva reducido es: "+lista_precios.pvp_iv_reducido+
@@ -30,8 +31,10 @@ for (const property in lista_precios) {
     console.log(`${property} = ${lista_precios[property]}`);
   }
   
-
-
+/*
+  let longitud=lista_precios.length;  
+console.log(longitud)
+*/
     
 
 
