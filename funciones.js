@@ -11,9 +11,10 @@ function suma(sumando1, sumando2) {
   }
 
 let resultadoSuma=suma(3,4)
-console.log(resultadoSuma)  
+console.log("suma: \n"+resultadoSuma)  
 
 function calPrecioIva(precio,iva_pct){
+
     const precio_iva=(precio*(1+iva_pct/100)).toFixed(2);
     return precio_iva;
 }
