@@ -8,7 +8,7 @@ Modelos Matemáticos de Predicción y Clasificación
 
 Big Data
 
-BLABLABLA
+Time Series
 
 Visualizacion
 
