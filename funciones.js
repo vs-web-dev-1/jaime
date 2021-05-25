@@ -13,13 +13,13 @@ function suma(sumando1, sumando2) {
 let resultadoSuma=suma(3,4)
 console.log("suma: \n"+resultadoSuma)  
 
-function calPrecioIva(precio,iva_pct){
+function calPrecioIva(precio,iva_pct=10){
 
     const precio_iva=(precio*(1+iva_pct/100)).toFixed(2);
     return precio_iva;
 }
 
-let pvp=calPrecioIva(10,21)
+let pvp=calPrecioIva(10)
 console.log(pvp)
 
 let lista_pvp={
