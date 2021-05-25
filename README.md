@@ -10,7 +10,7 @@ Big Data
 
 Time Series
 
-Visualizacion
+Visualización
 
 **Lenguajes** : _R_, _Python_, _SQL_
 
