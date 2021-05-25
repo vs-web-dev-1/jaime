@@ -27,11 +27,13 @@ let pvp=calPrecioIva(10)
 console.log(pvp)
 
 let lista_pvp={
+
     art1:10,
     art2:4.23,
     art3:24,
     art4:7.5,
     art5:24.8
+
 }
 
 const iva_recargado=21;
@@ -46,3 +48,9 @@ for (const property in lista_pvp) {
 
   }
 
+  /*
+var precios_nuevos=[23,145,2.5,0.75];
+
+let pvps=precios_nuevos.forEach(calPrecioIva);
+console.log(pvps)
+*/
