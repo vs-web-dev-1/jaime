@@ -26,6 +26,11 @@ console.log("El precio base del artículo es: "+precio_base+"\n El precio con iv
 "\n El precio con iva estándar es: "+lista_precios.pvp_norm+
 "\n El precio con iva recargado es: "+lista_precios.pvp_recargo)
 
+for (const property in lista_precios) {
+    console.log(`${property} = ${lista_precios[property]}`);
+  }
+  
+
 
     
 
