@@ -1,5 +1,7 @@
-
+/*
 function displayGreeting(name) {
+
+    console.log("Hola "+ name);
     const message = `¡Hola, ${name}!`;
     console.log(message);
   }
@@ -12,6 +14,8 @@ function suma(sumando1, sumando2) {
 
 let resultadoSuma=suma(3,4)
 console.log("suma: \n"+resultadoSuma)  
+*/
+
 
 function calPrecioIva(precio,iva_pct=10){
 
