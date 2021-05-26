@@ -36,15 +36,15 @@ let lista_pvp={
 
 }
 
-const iva_recargado=21;
+const iva_pct=21;
 
 for (const property in lista_pvp) {
 
     console.log("Sin Iva: ");
     console.log(`${property} = ${lista_pvp[property]}`);
 
-    console.log("Con Iva "+iva_recargado+"% : ");
-    console.log(`${property} = ${calPrecioIva(lista_pvp[property],iva_recargado)}`);
+    console.log("Con Iva "+iva_pct+"% : ");
+    console.log(`${property} = ${calPrecioIva(lista_pvp[property],iva_pct)}`);
 
   }
 
