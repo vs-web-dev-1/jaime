@@ -83,7 +83,12 @@ for (let i = 0; i < animales.length; i++) {
 
   }
 }
+console.log("------------");
+console.log(animales.values(2))
+console.log("------------INDEX VACA:");
+console.log(animales.indexOf("vaca"))
+console.log("------------ FOR EACH----------");
 
+let tipo = (a) => console.log(a+": "+typeof(a));
 
-
-
+animales.forEach(tipo);
