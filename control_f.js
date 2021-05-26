@@ -30,6 +30,7 @@ if(a=>b){
 }else{
     console.log("a no es igual o mayor que b")
 }
+
 console.log("------------")
 console.log("------------")
 console.log("------------")
@@ -39,14 +40,50 @@ animales.push("vaca");
 console.log("Lista de animales: "+animales);
 console.log("------------")
 console.log("------------")
+console.log(" Control de While: ")
+console.log("------------");
 
 let i = 0;
+
 while (i <= 10) {
+
     if(i%2===0){
-        animales.push(i)
+        animales.push(i);
     }
 
  console.log("Lista actual: "+animales);
- console.log("------------")
+ console.log("------------");
  i++;
 }
+
+console.log("------------");
+console.log("------------");
+console.log(" Control de array: ")
+console.log("------------");
+
+for (let i = 0; i < animales.length; i++) {
+    if(typeof animales[i]==='string'){
+        console.log(animales[i]+" es un animal");
+    }else if(typeof animales[i]==='number'){
+        console.log(animales[i]+" es un numero");
+    }    
+}
+
+console.log("------------");
+console.log(" Control de array con Switch: ")
+console.log("------------");
+for (let i = 0; i < animales.length; i++) {
+  switch(typeof animales[i]){
+      case 'string': 
+        console.log(animales[i]+" es un animal");
+        break;
+      case 'number':
+        console.log(animales[i]+" es un numero");   
+        break;
+
+  }
+}
+
+
+
+
