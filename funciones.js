@@ -48,6 +48,7 @@ for (const property in lista_pvp) {
 
   }
 
+  
   /*
 var precios_nuevos=[23,145,2.5,0.75];
 
