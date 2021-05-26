@@ -92,4 +92,4 @@ console.log("------------ FOR EACH----------");
 let tipo = (a) => console.log(a+": "+typeof(a));
 
 animales.forEach(tipo);
-
+animales.slice(1);
