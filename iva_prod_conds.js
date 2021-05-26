@@ -24,4 +24,17 @@ for(let i=0;i < lista_compra.length; i++) {
     "Tiene Iva: "+lista_compra[i].art_iva+" --> Precio final: "+precio_final);
     console.log("-----------------------------------");
 
-  }
+}
+
+
+lista_compra.forEach( function(articulo) {
+    let tieneIva = articulo.art_iva ;
+    let recargado = (articulo.art_precio*(1+iva_aplicable/100)).toFixed(2);
+
+    if (tieneIva) {
+        console.log(`${articulo.art_n} tiene IVA : PRECIO ORIGEN ${articulo.art_precio}`);
+        console.log("Precio final:"+recargado);
+    } else {
+        console.log(`El ${articulo.art_n} está exento de IVA: tiene un precio de ${articulo.art_precio}€`);
+    }
+})
