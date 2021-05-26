@@ -11,16 +11,17 @@ lista_compra=[prod1,prod2,prod3,prod4];
 for(let i=0;i < lista_compra.length; i++) {
     
     let precio_final;
-    if(lista_compra[i].art_iva==true){
-        precio_final=(lista_compra[i].art_precio*(1+iva_aplicable/100)).toFixed(2);
-    } else {
-        precio_final=lista_compra[i].art_precio;
-    }
+    
+        if(lista_compra[i].art_iva==true){
+            precio_final=(lista_compra[i].art_precio*(1+iva_aplicable/100)).toFixed(2);
+        } else {
+            precio_final=lista_compra[i].art_precio;
+        }
 
     console.log("-----------------------------------");
     console.log("Artículo "+i+": "+lista_compra[i].art_n+
     " con precio base= "+lista_compra[i].art_precio+". "+
-    "Iva: "+lista_compra[i].art_iva+". Precio fin: "+precio_final);
+    "Tiene Iva: "+lista_compra[i].art_iva+" --> Precio final: "+precio_final);
     console.log("-----------------------------------");
 
   }
