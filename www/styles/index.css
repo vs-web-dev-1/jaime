@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+}
+h2{
+    background-color: aquamarine;
+}
+a{
+    color: blueviolet;
+}
+
+.autor{
+    color: peru;
+}
+#main-title{
+    font-style: italic;
+}
+.verde{
+    color:greenyellow;
+}
+.naranja{
+    color:orangered
+}
+.fondo{
+    background-color:orange;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+div > h2{
+    color: navy;
+    margin: 20px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

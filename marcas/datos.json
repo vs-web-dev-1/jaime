@@ -1,0 +1,12 @@
+[
+{
+    "marca":"bh",
+    "precio":125,
+    "es_montaña":"true"
+}
+,
+{"marca":"orbea",
+   "precio":12453,
+   "es_montaña":"false" 
+}
+]
